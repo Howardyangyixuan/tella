@@ -389,3 +389,21 @@ span.begin-task-list + ul {
 .url {
   background-color: #222;
 }
+
+.share-button-background{
+  background-color: #1d4094;
+}
+.wechat{
+	position: relative;
+	opacity: 1 !important;
+}
+.wechat:hover #wechat{
+	display: block;
+}
+#wechat {
+		position: absolute;
+		display: none;
+		width: 50%;
+		left:25%;
+		bottom:100%;
+}
